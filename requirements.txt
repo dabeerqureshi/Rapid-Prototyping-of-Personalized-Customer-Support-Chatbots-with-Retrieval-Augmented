@@ -1,0 +1,7 @@
+langchain
+transformers
+sentence-transformers
+pinecone
+langchain-community
+pandas
+pathlib
