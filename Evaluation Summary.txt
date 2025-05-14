@@ -1,0 +1,41 @@
+===== EVALUATION SUMMARY =====
+
+Model: flan-t5-base
+  BLEU-1:       0.5173
+  BLEU-4:       0.5048
+  ROUGE-1:      0.7515
+  ROUGE-L:      0.7505
+  Response time: 2.6227 sec
+  Total time:    404.65 sec
+
+Model: flan-t5-large
+  BLEU-1:       0.5173
+  BLEU-4:       0.5048
+  ROUGE-1:      0.7515
+  ROUGE-L:      0.7505
+  Response time: 8.1220 sec
+  Total time:    1234.07 sec
+
+Model: bart
+  BLEU-1:       0.5176
+  BLEU-4:       0.5049
+  ROUGE-1:      0.7517
+  ROUGE-L:      0.7503
+  Response time: 21.9079 sec
+  Total time:    3296.48 sec
+
+Model: gpt2
+  BLEU-1:       0.3720
+  BLEU-4:       0.3646
+  ROUGE-1:      0.4252
+  ROUGE-L:      0.4241
+  Response time: 3.5886 sec
+  Total time:    287.80 sec
+
+Model: template
+  BLEU-1:       0.5174
+  BLEU-4:       0.5047
+  ROUGE-1:      0.7520
+  ROUGE-L:      0.7506
+  Response time: 0.2410 sec
+  Total time:    41.71 sec

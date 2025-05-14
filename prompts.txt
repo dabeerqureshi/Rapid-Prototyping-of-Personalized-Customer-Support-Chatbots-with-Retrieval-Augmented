@@ -1,0 +1,26 @@
+“What kind of semantic similarity does the SentenceTransformer model capture between technical documents?”
+
+“How would the model differentiate between ‘resetting a password’ and ‘changing a username’ in terms of embeddings?”
+
+“If I ask a vague question like ‘I’m stuck,’ how will the embedding logic narrow it down to a relevant support topic?”
+
+
+“What steps are involved in adding new documents to the knowledge base?”
+
+“How does the RAG pipeline retrieve relevant context for a user query?”
+
+“What models are used for embedding generation and response formulation?”
+
+“Walk me through the rag_query.py module.”
+
+“How is cosine similarity used during retrieval?”
+
+“How accurate is the chatbot based on recent feedback?”
+
+“What are future plans for improving multilingual support?”
+
+“Can the model adapt over time based on user feedback?”
+
+“What are the known limitations of the current system?”
+
+“Is this chatbot suitable for e-commerce support?”
