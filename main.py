@@ -8,7 +8,7 @@ from transformers import pipeline
 from pinecone import Pinecone
 
 # Paths and configuration
-csv_path = r"C:\Users\qures\OneDrive\Desktop\Generative AI Project\Dataset\Bitext_Sample_Customer_Support_Training_Dataset_27K_responses-v11.csv"
+csv_path = r"E:\Generative AI\Generative AI Project\Dataset\tech_support_dataset.csv"
 pinecone_api_key = "pcsk_33qtrC_5gTrvztaWPk6Kzz4m6ZDa4vvJPeGuhWS5wRtPDow6MvMoCo7pHwsKxAHrzcFsay"  # Replace with your actual Pinecone API key
 
 # Load dataset
@@ -16,10 +16,8 @@ texts, metadatas = load_bitext_dataset(csv_path)
 
 # Initialize Pinecone
 pc = Pinecone(api_key=pinecone_api_key)
-index_name = "chatbot-customer-support1"
-index = pc.Index(index_name)
+index_name = "tech-support-chatbot-customer-support"
 
-# Check if the Pinecone index already exists
 existing_indexes = [idx["name"] for idx in pc.list_indexes()]
 if index_name not in existing_indexes:
     # Upload data to Pinecone if the index does not exist
@@ -33,6 +31,9 @@ if index_name not in existing_indexes:
     )
 else:
     print(f"Index '{index_name}' already exists. Skipping upload.")
+
+# Now create the Index object after ensuring it exists
+index = pc.Index(index_name)
 
 # Initialize LLM and SentenceTransformer model
 llm = pipeline("text2text-generation", model="google/flan-t5-base")

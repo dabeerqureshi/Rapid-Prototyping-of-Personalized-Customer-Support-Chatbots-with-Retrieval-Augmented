@@ -86,7 +86,7 @@ def load_models():
 @st.cache_resource
 def load_pinecone_index():
     pc = Pinecone(api_key="pcsk_33qtrC_5gTrvztaWPk6Kzz4m6ZDa4vvJPeGuhWS5wRtPDow6MvMoCo7pHwsKxAHrzcFsay")
-    return pc.Index("chatbot-customer-support1")
+    return pc.Index("tech-support-chatbot-customer-support")
 
 model, llm = load_models()
 index = load_pinecone_index()

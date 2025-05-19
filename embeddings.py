@@ -8,7 +8,7 @@ from pinecone import Pinecone, ServerlessSpec
 def upload_to_pinecone(
     texts,
     metadatas,
-    index_name="chatbot-customer-support",
+    index_name="tech-support-chatbot-customer-support",
     pinecone_api_key=None,
     model_name="all-MiniLM-L6-v2",
     batch_size=100,

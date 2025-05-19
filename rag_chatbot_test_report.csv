@@ -1,0 +1,14 @@
+query,answer,response_time_sec,relevance_score,cosine_similarity,response_length_words
+How do I reset my password?,"Open the Settings app and click the ""Reset Password"" option.",2.9315640926361084,0.6666666666666666,0.7785489078622793,10
+My device won't turn on. What should I do?,Turn on the device.,0.6080679893493652,0.3333333333333333,0.42844228562033976,4
+What is the warranty period for your products?,365 days,0.4889693260192871,0.0,0.2238493410360842,2
+Can I update the firmware manually?,"No, I cannot do this manually.",0.7402768135070801,0.25,0.23438377360902402,6
+How to connect my device to Wi-Fi?,Connect the device to the Wi-Fi network using the USB cable.,0.973881721496582,0.75,0.6808853715367371,11
+What is your return policy?,a one-time fee,0.6001207828521729,0.0,0.17762132363173952,3
+"I forgot my account username, how do I retrieve it?",I can find it on my profile page.,0.7447824478149414,0.0,0.64673086764465,8
+Is this product compatible with Windows 11?,yes,0.4671776294708252,0.0,0.24125133354101855,1
+What are the working hours for customer support?,8:00 a.m. to 5:00 p.m.,0.967186689376831,0.0,0.172623509148413,5
+Tell me a joke,The narrator is a snob.,0.93756103515625,,0.10598661682884196,5
+Who won the World Cup in 2022?,switzerland,0.5292148590087891,,0.13944718643392817,1
+How to resset my pasword?,Place the pasword in the resealable bag and place it in the bag.,1.2063379287719727,0.0,0.32663506006169885,13
+Steps for password reset,What steps are needed to reset a password?,0.7408812046051025,1.0,0.7373176085396,8
